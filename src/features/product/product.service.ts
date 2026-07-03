@@ -1,6 +1,5 @@
 import axios from "axios";
 import type { Product } from "./product.types";
-import api from "../../services/axios";
 
 const BASE_URL = "https://dummyjson.com";
 

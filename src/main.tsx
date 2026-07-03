@@ -5,7 +5,7 @@ import App from "./App.tsx";
 import { BrowserRouter } from "react-router-dom";
 import { CartProvider } from "./context/CartContext.tsx";
 import { AuthProvider } from "./features/auth/auth.context.tsx";
-import Wishlist from "./pages/wishlist/Wishlist.tsx";
+
 import { WishlistProvider } from "./context/WishlistContext.tsx";
 import { Toaster } from "react-hot-toast";
 

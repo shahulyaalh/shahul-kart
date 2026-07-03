@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Navigate, useNavigate } from "react-router-dom";
 import { loginUser } from "../../features/auth/auth.services";
 import { useAuth } from "../../features/auth/auth.context";
-import { User } from "lucide-react";
 import toast from "react-hot-toast";
 
 const Login = () => {
